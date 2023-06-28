@@ -1,0 +1,60 @@
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+.input-group input {
+  padding-right: 50px;
+}
+
+.input-group select {
+  padding-left: 2rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border: none;
+  border-left: 1px solid rgb(165, 160, 160);
+  background: transparent;
+  padding: 0 10px;
+  outline: none;
+}
+
+.token-swap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid black;
+  padding: 2rem;
+  gap: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+  background-color: white;
+  width: 30rem;
+  margin: 0 auto;
+}
+
+.token-swap h1 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.token-swap input {
+  width: 95%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.token-swap button {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
